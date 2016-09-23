@@ -12,7 +12,7 @@ describe UsersController do
       end
     end
     
-    describe "for all signed-in-users" do
+    describe "for All signed-in-users" do
 
       before(:each) do
         @user = test_sign_in(Factory(:user))
